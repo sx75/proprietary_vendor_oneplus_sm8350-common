@@ -290,15 +290,6 @@ prebuilt_etc_xml {
 	device_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "manifest_dax_dolby_v3_6",
-	owner: "oneplus",
-	src: "proprietary/odm/etc/vintf/manifest/manifest_dax_dolby_v3_6.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	device_specific: true,
-}
-
 install_symlink {
 	name: "libimscamera_jni_libimscamera_jni_symlink64",
 	system_ext_specific: true,
